@@ -1,0 +1,10 @@
+/* movie.wxss */
+@import "movie-list/movie-list.wxss";
+@import "movie-gird/movie-gird.wxss";
+.search {
+  background-color: #f2f2f2;
+  height: 80rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}

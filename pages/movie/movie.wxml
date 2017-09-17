@@ -1,0 +1,17 @@
+<!--movie.wxml-->
+<import src="movie-list/movie-list" />
+<import src="movie-gird/movie-gird"/>
+<view class="search">
+  <input type="text" placeholder="请输入关键字" bindfocus="focus" bindblur="blur" bindinput="input" bindconfirm="confirm"/>
+  
+</view>
+<view wx:if="{{show}}">
+
+<template is="movieListTemplate" data="{{... in_theaters}}" ></template>
+<template is="movieListTemplate" data="{{...coming_soon}}" ></template>
+<template is="movieListTemplate" data="{{...top250}}" ></template>
+
+</view>
+<view wx:wx:if="{{!show}}" >
+    <template is="movie-gird" data="{{movies}}"></template>
+</view>

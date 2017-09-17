@@ -1,0 +1,16 @@
+
+
+<import src="../template/hha.wxml" />
+<view >
+  <swiper  indicator-dots interval="2000" style="height:600rpx">
+    <swiper-item><image src="../../images/post/xiaolong.jpg" style="height:600rpx"></image></swiper-item>
+    <swiper-item><image src="../../images/post/vr.png" style="height:600rpx"></image></swiper-item>
+    <swiper-item><image src="../../images/post/sls.jpg" style="height:600rpx"></image></swiper-item>
+  </swiper>
+
+ <block wx:for="{{post_key}}" >
+ <view catchtap="haha" data-postid="{{index}}">
+<template is="msgItem" data="{{item}}" />
+    </view>
+</block>
+</view>

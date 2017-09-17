@@ -1,0 +1,5 @@
+<!--more-movie.wxml-->
+<import src="../movie-gird/movie-gird"/>
+<view >
+ <template is="movie-gird" data="{{movies,cate}}"/>
+</view> 

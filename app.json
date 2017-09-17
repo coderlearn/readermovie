@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/posts/post",
+    "pages/template/hha",
+    "pages/posts-details/posts-details",
+    "pages/movie/movie",
+    "pages/movie/more-movie/more-movie",
+    "pages/movie/movie-detail/movie-detail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#b3d4db"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/posts/post",
+        "text": "阅读"
+      },
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "电影"
+      }
+    ]
+  }
+}

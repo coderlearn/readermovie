@@ -1,0 +1,22 @@
+<import src="movies_second"/>
+<template name="movies_third">
+  <view class="movie-list-container">
+    <view class="inner-container">
+      <view class="movie-head">
+    
+        <text class="slogan"></text>
+        <view catchtap="onMoreTap" class="more" >
+          <text class="more-text">更多</text>
+          <image class="more-img" src="/images/icon/arrow-right.png"></image>
+        </view>
+      </view>
+<view class="movies-container">
+<template is="movies_second"></template>
+<template is="movies_second"></template>
+<template is="movies_second"></template>
+</view>
+</view>
+</view>
+
+
+</template>

@@ -1,0 +1,4 @@
+@import "../movie-template/movie-template.wxss" ;
+.x{
+  float: left
+}

@@ -1,0 +1,14 @@
+<import src="movies.wxml"/>
+<template name="movies_second">
+<view class="movie-container">
+  <image class="movie-img" src="/images/avatar/1.png"></image>
+  <text class="movie-title">你的名字</text>
+<template is="movies" ></template>
+
+
+</view>
+
+
+</template>
+
+

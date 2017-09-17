@@ -1,0 +1,19 @@
+
+
+
+
+
+
+
+<template name="movies">
+  <view class="stars-container">
+    <view class="stars">
+      <image class="stars image"  src="/images/icon/star.png"></image>
+     <image class="stars image" src="/images/icon/star.png"></image>
+     <image class="stars image" src="/images/icon/star.png"></image>
+     <image class="stars image"  src="/images/icon/star.png"></image>
+     <image  class="stars image" src="/images/icon/star.png"></image>
+    </view>
+    <text class="star-score">8.7</text>
+  </view>
+</template>

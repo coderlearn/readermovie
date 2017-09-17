@@ -1,0 +1,13 @@
+<import src="../movie-template/movie-template"/>
+<template name="movie-gird">
+<view data-aate="{{cate}}">asssssssssssssssssssssssssssssssssssss
+saaaaaaaaaaa
+sasasaassa
+</view>
+ <scroll-view scroll-y="true"  style="height: 1300rpx;"  bindscrolltolower="lower" data-cate="{{cate}}" >
+    <block wx:for="{{movies}}" wx:for-item="subjectc">
+        <view class="x">
+        <template is="movie-template" data="{{...subjectc}}"/>
+     </view> </block>
+   </scroll-view>
+</template>

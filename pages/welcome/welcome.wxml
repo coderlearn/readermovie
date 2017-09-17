@@ -1,0 +1,7 @@
+<view class="container">
+    <image src="/images/kobe.jpg"></image>
+    <text class="first">cm40046</text>
+    <view class="containera">
+      <text class="two" bindtap="tap">welcome</text>
+    </view>
+</view>
